@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AKT Studioの公式サイト。集中タイマーアプリPomoDaysを開発しています。">
+  <title>AKT Studio | PomoDays</title>
+  <style>
+    :root {
+      --bg: #0b1424;
+      --card: #152238;
+      --accent: #48d8f0;
+      --text: #f5f8ff;
+      --muted: #aab8cc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    header, footer {
+      padding: 24px;
+      text-align: center;
+    }
+    header {
+      border-bottom: 1px solid #26344a;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 780px;
+      margin: auto;
+      padding: 70px 24px;
+    }
+    .hero { text-align: center; }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: bold;
+    }
+    h1 {
+      font-size: clamp(40px, 9vw, 68px);
+      margin: 8px 0;
+    }
+    h2 { font-size: 24px; }
+    .subtitle {
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .card {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 20px;
+      margin-top: 60px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+    .feature {
+      background: #203049;
+      padding: 18px;
+      border-radius: 12px;
+    }
+    a { color: var(--accent); }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid #26344a;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>AKT STUDIO</header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">FOCUS MADE SIMPLE</p>
+      <h1>PomoDays</h1>
+      <p class="subtitle">集中を、もっと身近に。</p>
+      <p>
+        手首から、集中を始めよう。<br>
+        Apple WatchとiPhoneで使える、
+        シンプルな集中タイマー。
+      </p>
+      <p class="eyebrow">Coming Soon</p>
+    </section>
+
+    <section class="card">
+      <h2>集中する時間を、もっと心地よく。</h2>
+      <div class="features">
+        <div class="feature">
+          <strong>Apple Watch</strong><br>
+          手首からタイマーを操作
+        </div>
+        <div class="feature">
+          <strong>Focus & Break</strong><br>
+          集中と休憩を繰り返す
+        </div>
+        <div class="feature">
+          <strong>Activity Records</strong><br>
+          日々の取り組みを記録
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Support</h2>
+      <p>
+        お問い合わせはこちら<br>
+        <a href="mailto:aktstudio.apps@gmail.com">
+          aktstudio.apps@gmail.com
+        </a>
+      </p>
+      <p>
+        プライバシーポリシー・利用規約は
+        公開準備中です。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 AKT Studio. All rights reserved.
+  </footer>
+</body>
+</html>
